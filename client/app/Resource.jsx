@@ -106,6 +106,7 @@ var Resource = ({resource, deleteResource}) => (
     {resource.user}:
     <a className="resourceName" target="_blank" href={resource.link}>{resource.name}</a>
     <i className="fa fa-times deleteResource" aria-hidden="true" onClick={() => deleteResource(resource.id)}></i>
+
   </div>
 );
 
