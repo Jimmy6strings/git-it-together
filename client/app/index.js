@@ -9,12 +9,12 @@ console.log('service', repoService);
 
 
 
-
+//instantiate new authentication service
 const auth = new AuthService('X5MiErhjYO21MdTVoiLZccQA123jBgla', 'sdm.auth0.com');
 console.log(auth);
 const repod = new repoService();
 console.log(repod);
-
+//render app.jsx, authentication, and repod
 ReactDOM.render(
     <App auth={auth} repod={repod}/>, document.getElementById('app')
   );
