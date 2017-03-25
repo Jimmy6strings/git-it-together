@@ -3,8 +3,7 @@ import ProjectList from './ProjectList.jsx';
 
 //render data for each project in project list. takes in project and click event for each project
 var ProjectListEntry = ({project, handleProjectListEntryClick}) => (
-  //enters a project with click on project
-
+//enters a project with click on project
   <div className="project-list-entry" onClick={() => handleProjectListEntryClick(project)}>
     <div className="project-body">
       <div className="row">

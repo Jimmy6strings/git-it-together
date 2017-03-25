@@ -7,7 +7,6 @@ var ProjectList = ({projects, handleProjectListEntryClick}) => (
     {/*iterate over the list of projects*/}
     {projects.map((project) =>
       /*render each project by connecting id, project, and click entry*/
-
       <ProjectListEntry
         key = {project.id}
         project = {project}

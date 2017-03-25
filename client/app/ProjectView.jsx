@@ -5,9 +5,7 @@ import ChatApp from './chatRoom.jsx';
 {/*rendered functionality for project clicked. takes in project, profile info, and deleteProject for delete button functionality */}
 var Project = ({project, profile, deleteProject}) => (
 
-
-  //if no project exists, render text no project found. else render project data
-
+//if no project exists, render text no project found. else render project data
   !project ? <div className="project-view">No project found</div> :
   <div className="container-fluid">
     <div className="project-view">
