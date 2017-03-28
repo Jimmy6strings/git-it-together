@@ -6,7 +6,7 @@ import services from '../config/services.js';
 import repoService from '../config/services';
 
 console.log('service', repoService);
-
+//rendering app.jsx, authO, and repod onto index.html
 
 
 //instantiate new authentication service

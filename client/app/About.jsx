@@ -1,8 +1,7 @@
 import React from 'react';
 import {Row, Col, Image, Button, Tooltip, Popover, OverlayTrigger} from 'react-bootstrap';
 
-//style={{zIndex: 2000}}
-//data-backdrop="false"
+//component dedicated to the modal rendering of each team members bio
 var About = () => (
   <div>
 

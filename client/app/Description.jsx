@@ -1,8 +1,7 @@
 import React from 'react';
 import {Row, Col, Image, Button, Tooltip, Popover, OverlayTrigger} from 'react-bootstrap';
 
-//style={{zIndex: 2000}}
-//data-backdrop="false"
+//component for modal bio in About us button
 var Description = () => (
   <div>
 

@@ -1,11 +1,8 @@
-// Resources: http://jsfiddle.net/martinaglv/3N6D3/
-
 import React from 'react';
 import ProjectList from './ProjectList.jsx';
 import UserRepos from './UserRepos.jsx';
 
-//To render in app: <Search projects={this.state.projects} handleProjectListEntryClick={this.handleProjectListEntryClick}></Search>
-
+//component for searching through existing projects
 var Search = React.createClass({
 
     getInitialState: function(){

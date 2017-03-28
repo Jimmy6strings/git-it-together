@@ -2,7 +2,8 @@ import React from 'react';
 import Deliverable from './Deliverable.jsx';
 import Resource from './Resource.jsx';
 import ChatApp from './chatRoom.jsx';
-{/*rendered functionality for project clicked. takes in project, profile info, and deleteProject for delete button functionality */}
+
+//rendered functionality for project clicked. takes in project, profile info, and deleteProject for delete button functionality
 var Project = ({project, profile, deleteProject}) => (
 
   /*if no project exists, render text no project found. else render project data*/
@@ -62,13 +63,8 @@ var Project = ({project, profile, deleteProject}) => (
   </div>
 );
 
-// PropTypes tell other developers what `props` a component expects
-// Warnings will be shown in the console when the defined rules are violated
 Project.propTypes = {
   project: React.PropTypes.object.isRequired
 };
-
-// In the ES6 spec, files are "modules" and do not share a top-level scope
-// `var` declarations will only exist globally where explicitly defined
 
 module.exports = Project;
