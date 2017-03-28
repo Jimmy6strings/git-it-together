@@ -1,7 +1,7 @@
 import React from 'react'
 import AuthService from '../config/AuthService.js'
-//import styles from './styles.module.css'
 
+//initial component rendering authentiation for sign in
 export class Login extends React.Component {
 
 

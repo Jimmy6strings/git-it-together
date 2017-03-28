@@ -1,7 +1,6 @@
 import React from 'react';
 
-//style={{zIndex: 2000}}
-//data-backdrop="false"
+//component dedicated to the modal rendering of each team members bio
 var About = () => (
   <div className="container-fluid our-team">
 

@@ -1,5 +1,6 @@
 import React from 'react';
 
+//component in projectlistentryview for searching through existing projects or looking through projects in users github profile
 var Nav = ({profile, logout, handleProjectListEntryClick, current}) => (
   <nav className='navbar navbar-light bg-faded'>
     <div className='navbar-header'>

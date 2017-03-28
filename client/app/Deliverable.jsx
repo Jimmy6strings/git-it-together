@@ -2,6 +2,7 @@ import React from 'react';
 import $ from 'jquery';
 var socket = io.connect('/io/deliverables');
 
+//component for creating, moving, and deleting tasks in projectView
 class Form extends React.Component {
   constructor(props) {
     super(props);

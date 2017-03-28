@@ -1,7 +1,6 @@
 import React from 'react';
 
-//style={{zIndex: 2000}}
-//data-backdrop="false"
+//component for modal bio in About us button
 var Description = () => (
 <div className="container-fluid">
   <button type="button" className="aboutButton" className="btn btn-primary" data-toggle="modal" data-target="#myModal">

@@ -1,8 +1,6 @@
 import React from 'react';
 
-//To render in app: <UserRepos handlerepoClick={this.handleRepoClick}></Search>
-//also import this
-
+//component to search user github repositories
 var UserRepos = React.createClass({
 
 

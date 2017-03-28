@@ -1,6 +1,7 @@
 import React from 'react';
 var socket = io.connect('/io/resources');
 
+//component for adding and deleting title and link of resources related to project in projectview
 class Form extends React.Component {
   constructor(props) {
     super(props);
